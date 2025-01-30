@@ -1,0 +1,6 @@
+2025-01-30 00:24:24.612 [info] update#setState idle
+2025-01-30 00:24:54.636 [info] update#setState checking for updates
+2025-01-30 00:24:59.177 [info] update#setState downloading
+2025-01-30 00:25:22.743 [info] Extension host with pid 84518 exited with code: 0, signal: unknown.
+2025-01-30 00:26:28.397 [info] update#setState downloaded
+2025-01-30 00:26:28.403 [info] update#setState ready

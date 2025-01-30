@@ -1,0 +1,68 @@
+2025-01-30 00:24:33.590 [info] [main] Log level: Info
+2025-01-30 00:24:33.590 [info] [main] Validating found git in: "/usr/local/bin/git"
+2025-01-30 00:24:33.590 [info] [main] Using git "2.47.1" from "/usr/local/bin/git"
+2025-01-30 00:24:33.590 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-30 00:24:33.590 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-30 00:25:34.303 [info] [main] Log level: Info
+2025-01-30 00:25:34.304 [info] [main] Validating found git in: "/usr/local/bin/git"
+2025-01-30 00:25:34.304 [info] [main] Using git "2.47.1" from "/usr/local/bin/git"
+2025-01-30 00:25:34.304 [info] [Model][doInitialScan] Initial repository scan started
+2025-01-30 00:25:34.315 [info] > git rev-parse --show-toplevel [20ms]
+2025-01-30 00:25:34.315 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-30 00:25:34.349 [info] > git rev-parse --show-toplevel [27ms]
+2025-01-30 00:25:34.361 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2025-01-30 00:25:34.386 [info] [Model][openRepository] Opened repository: /Users/macos/Desktop/ssh-remote-server-setup/ssh-remote-server
+2025-01-30 00:25:34.518 [info] > git config --get commit.template [48ms]
+2025-01-30 00:25:34.524 [info] > git rev-parse --show-toplevel [50ms]
+2025-01-30 00:25:34.524 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-01-30 00:25:34.533 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-01-30 00:25:34.561 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [22ms]
+2025-01-30 00:25:34.565 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/Users/macos/Desktop/ssh-remote-server-setup/ssh-remote-server/.git/refs/remotes/origin/main'
+2025-01-30 00:25:34.575 [info] > git rev-parse refs/remotes/origin/main [10ms]
+2025-01-30 00:25:34.610 [info] > git status -z -uall [31ms]
+2025-01-30 00:25:34.611 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [17ms]
+2025-01-30 00:25:34.669 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [31ms]
+2025-01-30 00:25:34.706 [info] > git config --get commit.template [50ms]
+2025-01-30 00:25:34.755 [info] > git config --local branch.main.vscode-merge-base [71ms]
+2025-01-30 00:25:34.755 [warning] [Git][config] git config failed: Failed to execute git
+2025-01-30 00:25:34.815 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [110ms]
+2025-01-30 00:25:34.841 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/Users/macos/Desktop/ssh-remote-server-setup/ssh-remote-server/.git/refs/remotes/origin/main'
+2025-01-30 00:25:34.842 [info] > git reflog main --grep-reflog=branch: Created from *. [78ms]
+2025-01-30 00:25:34.855 [info] > git rev-parse refs/remotes/origin/main [15ms]
+2025-01-30 00:25:34.874 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [28ms]
+2025-01-30 00:25:34.888 [info] > git status -z -uall [28ms]
+2025-01-30 00:25:34.901 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [34ms]
+2025-01-30 00:25:34.917 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/origin/main refs/remotes/origin/main [31ms]
+2025-01-30 00:25:34.932 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [21ms]
+2025-01-30 00:25:34.949 [info] > git config --local branch.main.vscode-merge-base origin/main [26ms]
+2025-01-30 00:25:34.955 [info] > git config --local branch.main.vscode-merge-base [15ms]
+2025-01-30 00:25:34.977 [info] > git config --get commit.template [23ms]
+2025-01-30 00:25:34.985 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/origin/main refs/remotes/origin/main [24ms]
+2025-01-30 00:25:35.100 [info] > git check-ignore -v -z --stdin [117ms]
+2025-01-30 00:25:35.104 [info] > git merge-base refs/heads/main refs/remotes/origin/main [22ms]
+2025-01-30 00:25:35.112 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [146ms]
+2025-01-30 00:25:35.117 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/Users/macos/Desktop/ssh-remote-server-setup/ssh-remote-server/.git/refs/remotes/origin/main'
+2025-01-30 00:25:35.132 [info] > git rev-parse refs/remotes/origin/main [15ms]
+2025-01-30 00:25:35.143 [info] > git diff --name-status -z --diff-filter=ADMR 4e45cdc702fe5342bc52036054c05ddbc4c88c80...refs/remotes/origin/main [32ms]
+2025-01-30 00:25:35.153 [info] > git status -z -uall [17ms]
+2025-01-30 00:25:35.161 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [19ms]
+2025-01-30 01:09:04.464 [info] > git rev-parse --show-toplevel [29ms]
+2025-01-30 01:09:04.493 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2025-01-30 01:09:04.673 [info] [Model][openRepository] Opened repository: /Users/macos/Desktop/ssh-remote-server-setup
+2025-01-30 01:09:04.724 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 01:09:04.727 [info] > git config --get commit.template [23ms]
+2025-01-30 01:09:04.746 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [24ms]
+2025-01-30 01:09:04.746 [warning] [Git][getBranch] No such branch: master
+2025-01-30 01:09:04.804 [info] > git status -z -uall [48ms]
+2025-01-30 01:09:04.804 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [35ms]
+2025-01-30 01:09:04.884 [info] [Git][getRemotes] No remotes found in the git config file
+2025-01-30 01:09:04.889 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [42ms]
+2025-01-30 01:09:04.889 [warning] [Git][getBranch] No such branch: master
+2025-01-30 01:09:04.894 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2025-01-30 01:09:04.902 [info] > git config --get commit.template [24ms]
+2025-01-30 01:09:04.903 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/master refs/remotes/master [19ms]
+2025-01-30 01:09:04.903 [warning] [Git][getBranch] No such branch: master
+2025-01-30 01:09:05.023 [info] > git status -z -uall [114ms]
+2025-01-30 01:09:05.023 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [105ms]
+2025-01-30 01:09:05.677 [info] > git check-ignore -v -z --stdin [28ms]
+2025-01-30 01:09:05.682 [info] > git check-ignore -v -z --stdin [20ms]
